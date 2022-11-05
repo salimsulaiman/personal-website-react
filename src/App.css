@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#button-profile {
+  border-radius: 30px;
+  color: #0181b0;
+  border-color: #0181b0;
+}
+#button-profile:hover {
+  border-radius: 30px;
+  background-color: #0181b0;
+  color: #fff;
+}
+
+.custom-nav {
+  display: block;
+  padding: 8px 10px;
+  color: #333;
+  text-decoration: none;
+}
+.custom-nav:hover {
+  color: #0181b0;
+}
+
+.skill {
+  transition: background-color 0.5s ease-out 100ms, color 0.2s ease-out 100ms;
+  background-color: #edf2f7;
+  min-width: 200px;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+  min-height: 250px;
+  margin: 10px 0;
+}
+
+.skill:hover {
+  background-color: #0181b0;
+  color: #fff;
+}
+
+.color-primary {
+  color: #0181b0;
+}
+
+.blogs {
+  border-bottom: 2px #edf2f7 solid;
+  transition: border-radius 0.2s ease-out 0ms, background-color 0.2s ease-out 0ms;
+}
+
+.blogs:hover {
+  cursor: pointer;
+  background-color: #edf2f7;
+  border-radius: 25px;
+}
+
+.img-warp img {
+  display: inline-block;
+}
+
+.square {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #0181b0;
+}
